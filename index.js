@@ -33,8 +33,8 @@ function conversions(base) {
     let gallons = (base / 0.264).toFixed(3);
     
     litersAndGallonsEl.innerHTML = `
-        <p>${base} gallons = ${liters} liters |</p>
-        <p>${base} liters = ${gallons} gallons</p>
+        <p>${base} gallons = ${gallons} liters |</p>
+        <p>${base} liters = ${liters} gallons</p>
     `
     meter
     
@@ -43,8 +43,8 @@ function conversions(base) {
     let pounds = (base / 2.204).toFixed(3);
     
     kilogramsAndPoundsEl.innerHTML = `
-        <p>${base} kilos = ${pounds} pounds |</p>
-        <p>${base} pounds = ${kilos} kilos</p>
+        <p>${base} kilos = ${kilos} pounds |</p>
+        <p>${base} pounds = ${pounds} kilos</p>
     `
     meter
 }
