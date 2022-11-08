@@ -39,8 +39,8 @@ function conversions(base) {
     meter
     
     // Mass (Kilograms / Pounds)
-    let kilos = (base * 0.264).toFixed(3);
-    let pounds = (base / 0.264).toFixed(3);
+    let kilos = (base * 2.204).toFixed(3);
+    let pounds = (base / 2.204).toFixed(3);
     
     kilogramsAndPoundsEl.innerHTML = `
         <p>${base} kilos = ${pounds} pounds |</p>
